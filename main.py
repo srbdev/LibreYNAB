@@ -15,9 +15,10 @@ templates = Jinja2Templates(directory="templates")
 async def status():
     return {"message": "LibreYNAB is live!"}
 
-
 # Budget Model ***************************************************************#
+
 @app.get("/budgets", response_class=HTMLResponse)
 async def budget_index(request: Request):
     return templates.TemplateResponse("budget/index.html", {"request": request})
+
 # Budget Model - END *********************************************************#
