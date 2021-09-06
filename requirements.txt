@@ -1,0 +1,6 @@
+fastapi
+uvicorn[standard]
+pylint
+flake8
+bandit
+black
