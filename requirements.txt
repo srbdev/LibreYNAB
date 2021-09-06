@@ -1,5 +1,7 @@
 fastapi
 uvicorn[standard]
+jinja2
+aiofiles
 pylint
 flake8
 bandit
