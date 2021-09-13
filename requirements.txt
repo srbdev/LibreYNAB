@@ -2,6 +2,7 @@ fastapi
 uvicorn[standard]
 jinja2
 aiofiles
+SQLAlchemy
 pylint
 flake8
 bandit
