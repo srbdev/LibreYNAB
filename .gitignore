@@ -2,3 +2,4 @@
 *.code-workspace
 __pycache__
 .vscode
+libre_ynab.db
