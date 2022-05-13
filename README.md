@@ -24,7 +24,7 @@ flask init-db
 flask run
 ```
 
-Point your browser to [localhost:5000/hello](localhost:5000/hello) to load the application.
+Point your browser to [127.0.0.1:5000/hello](http://127.0.0.1:5000/hello) to load the application.
 
 ### Code Formatting
 LibreYNAB uses [Black](https://github.com/psf/black) for a code formatter. Run Black on the codebase before submitting a pull request:
