@@ -1,8 +1,4 @@
-fastapi
-uvicorn[standard]
-jinja2
-aiofiles
-SQLAlchemy
+Flask
 pylint
 flake8
 bandit
