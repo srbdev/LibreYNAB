@@ -24,12 +24,17 @@ def create_app(test_config=None):
         pass
 
     # a simple page that says hello
-    @app.route("/hello")
+    @app.route("/heartbeat")
     def hello():
-        return "Hello, world!"
+        return {"status": "OK"}, 200
 
     from . import db
 
     db.init_app(app)
+
+    from . import application
+
+    app.register_blueprint(application.bp)
+    app.add_url_rule("/", endpoint="index")
 
     return app
