@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <script src="{{ url_for('static', filename='tailwindcss.js') }}"></script>
     </head>
-    <body>
+    <body class="bg-sky-500">
         {% for message in get_flashed_messages() %}
             <div class="flash">{{ message }}</div>
         {% endfor %}
