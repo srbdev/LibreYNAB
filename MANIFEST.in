@@ -1,0 +1,4 @@
+include ynab/schema.sql
+graft ynab/static
+graft ynab/templates
+global-exclude *.pyc
